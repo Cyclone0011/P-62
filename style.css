@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+z-index:10;
+}
+
+
+
+li {
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #00a832;
+    display: inline;
+    transition: 0.5s background;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+}
+.a, .a:hover, .a:active, .a:visited, .a:focus {
+    text-decoration:none;
+    color:#333;
+}
+body{
+    text-align:center;
+}
+section{
+    z-index: 9;
+}
